@@ -1,0 +1,360 @@
+[
+  {
+    "schemeName": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+    "description": "The world's largest health insurance scheme, providing a health cover of ₹5 lakh per family per year for secondary and tertiary care hospitalization.",
+    "ministry": "Ministry of Health and Family Welfare",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "category": ["BPL", "Poor"],
+      "income_max": 250000,
+      "notes": "Eligibility is complex and based on SECC 2011 census data, often covering families with an annual income below ₹2.5 lakh."
+    },
+    "benefits": "Cashless health insurance coverage up to ₹5 lakh per family per year.",
+    "applicationLink": "https://nha.gov.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+    "description": "A mission to provide affordable housing to the urban poor, including slum dwellers.",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "area": "Urban",
+      "income_max": 1800000,
+      "category": ["EWS", "LIG", "MIG-I", "MIG-II"],
+      "notes": "Income limits vary by category (EWS up to ₹3 lakh, LIG up to ₹6 lakh, etc.). Beneficiary family should not own a 'pucca' house."
+    },
+    "benefits": "Provides a Credit Linked Subsidy Scheme (CLSS) on home loans.",
+    "applicationLink": "https://pmay-urban.gov.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "description": "A scheme to provide a pucca house with basic amenities to all houseless households in rural areas.",
+    "ministry": "Ministry of Rural Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "area": "Rural",
+        "category": ["BPL", "Poor"],
+        "income_max": 250000,
+        "notes": "Beneficiaries are identified based on housing deprivation parameters in the SECC 2011 data."
+    },
+    "benefits": "Provides financial assistance for the construction of a pucca house.",
+    "applicationLink": "https://pmayg.nic.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "description": "Provides income support to all landholding farmer families in the country.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "occupation": ["Farmer"],
+      "age_min": 18,
+      "notes": "All landholding farmer families are eligible, subject to certain exclusion criteria."
+    },
+    "benefits": "Financial benefit of ₹6,000 per year in three equal installments.",
+    "applicationLink": "https://pmkisan.gov.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "description": "A scheme to provide clean cooking fuel (LPG) to women from poor households.",
+    "ministry": "Ministry of Petroleum & Natural Gas",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "gender": "Female",
+      "category": ["BPL"],
+      "age_min": 18,
+      "income_max": 200000,
+      "notes": "Applicant must be from a Below Poverty Line (BPL) family without an existing LPG connection."
+    },
+    "benefits": "Provides a deposit-free LPG connection.",
+    "applicationLink": "https://www.pmuy.gov.in/"
+  },
+  {
+    "schemeName": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+    "description": "Guarantees 100 days of wage employment to any rural household whose adult members volunteer to do unskilled manual work.",
+    "ministry": "Ministry of Rural Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "area": "Rural",
+      "age_min": 18,
+      "notes": "Any adult member of a rural household is eligible."
+    },
+    "benefits": "Guaranteed 100 days of wage employment.",
+    "applicationLink": "https://nrega.nic.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "description": "National Mission for Financial Inclusion to ensure access to financial services.",
+    "ministry": "Ministry of Finance",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "age_min": 18,
+      "notes": "Any individual who does not have a bank account is eligible. Can be opened for minors aged 10 and above with a guardian."
+    },
+    "benefits": "A basic savings bank account with no minimum balance, a RuPay debit card, and accident insurance.",
+    "applicationLink": "https://pmjdy.gov.in/"
+  },
+  {
+    "schemeName": "Atal Pension Yojana (APY)",
+    "description": "A pension scheme for citizens of India, focused on the unorganised sector.",
+    "ministry": "Ministry of Finance",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "age_min": 18,
+      "age_max": 40,
+      "occupation": ["Unorganized Sector Worker", "Other"],
+      "notes": "Must have a bank account and should not be a member of any other statutory social security scheme."
+    },
+    "benefits": "Guaranteed minimum monthly pension of ₹1,000 to ₹5,000 after age 60.",
+    "applicationLink": "https://www.npscra.nsdl.co.in/apply-for-apy.php"
+  },
+  {
+    "schemeName": "Sukanya Samriddhi Yojana (SSY)",
+    "description": "A small deposit scheme for the girl child, launched as a part of the 'Beti Bachao Beti Padhao' campaign.",
+    "ministry": "Ministry of Finance",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "gender": "Female",
+      "age_max": 10,
+      "notes": "An account can be opened in the name of a girl child until she attains the age of 10."
+    },
+    "benefits": "High interest rate and tax benefits, providing a fund for the girl child's higher education or marriage.",
+    "applicationLink": "Available through post offices and authorized banks."
+  },
+  {
+    "schemeName": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "description": "Provides loans up to ₹10 lakh to non-corporate, non-farm small/micro enterprises.",
+    "ministry": "Ministry of Finance",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "age_min": 18,
+      "occupation": ["Small Business Owner", "Micro Enterprise", "Entrepreneur"],
+      "notes": "For non-farm sector income generating activities."
+    },
+    "benefits": "Provides loans categorized as Shishu (up to ₹50,000), Kishor (₹50,001-₹5 lakh), and Tarun (₹5 lakh-₹10 lakh).",
+    "applicationLink": "https://www.mudra.org.in/"
+  },
+  {
+    "schemeName": "Stand-Up India Scheme",
+    "description": "Facilitates bank loans between ₹10 lakh and ₹1 crore to at least one SC/ST borrower and at least one woman borrower per bank branch.",
+    "ministry": "Ministry of Finance",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "category": ["SC", "ST"],
+      "gender": "Female",
+      "age_min": 18,
+      "occupation": ["Entrepreneur"],
+      "notes": "For setting up a greenfield (first-time) enterprise. This scheme targets women OR SC/ST entrepreneurs."
+    },
+    "benefits": "Facilitates bank loans from ₹10 lakh to ₹1 crore to promote entrepreneurship.",
+    "applicationLink": "https://www.standupmitra.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "description": "An insurance service for farmers for their yields against crop failure.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "occupation": ["Farmer"],
+      "age_min": 18,
+      "notes": "All farmers including sharecroppers and tenant farmers are eligible."
+    },
+    "benefits": "Provides insurance coverage and financial support in the event of crop failure.",
+    "applicationLink": "https://pmfby.gov.in/"
+  },
+  {
+    "schemeName": "National Social Assistance Programme (NSAP)",
+    "description": "Provides financial assistance to the elderly, widows, and persons with disabilities in the form of social pensions.",
+    "ministry": "Ministry of Rural Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "category": ["BPL"],
+      "age_min": 60,
+      "gender": "Female",
+      "disability": true,
+      "income_max": 200000,
+      "notes": "Comprises several sub-schemes for old age, widows, and disability. Criteria vary slightly for each."
+    },
+    "benefits": "Provides a monthly pension to eligible beneficiaries.",
+    "applicationLink": "https://nsap.nic.in/"
+  },
+  {
+    "schemeName": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "description": "A maternity benefit program that provides a cash incentive to pregnant women and lactating mothers for the first live birth.",
+    "ministry": "Ministry of Women and Child Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "gender": "Female",
+      "age_min": 19,
+      "notes": "Available for the first live birth. Excludes women in regular government employment."
+    },
+    "benefits": "Cash incentive of ₹5,000 in installments.",
+    "applicationLink": "https://pmmvy.wcd.nic.in/"
+  },
+  {
+    "schemeName": "Prime Minister’s Employment Generation Programme (PMEGP)",
+    "description": "A credit-linked subsidy programme for generating self-employment opportunities through micro-enterprises.",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+      "age_min": 18,
+      "occupation": ["Unemployed Youth", "Artisan", "Entrepreneur"],
+      "notes": "For setting up new projects. Minimum 8th standard pass for projects above a certain cost."
+    },
+    "benefits": "Provides a government subsidy on the project cost.",
+    "applicationLink": "https://www.kviconline.gov.in/pmegpeportal/"
+  },
+  {
+    "schemeName": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "description": "A skill training and placement program for rural youth.",
+    "ministry": "Ministry of Rural Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "age_min": 15,
+        "age_max": 35,
+        "area": "Rural",
+        "category": ["Poor", "BPL"]
+    },
+    "benefits": "Provides free skill training with a focus on placements.",
+    "applicationLink": "http://ddugky.gov.in/"
+  },
+  {
+    "schemeName": "National Health Mission (NHM)",
+    "description": "Aims for universal access to equitable, affordable & quality health care services.",
+    "ministry": "Ministry of Health and Family Welfare",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "notes": "Universal scheme. It is a framework for health programs rather than a direct benefit scheme."
+    },
+    "benefits": "Strengthens health infrastructure, provides free essential drugs, and supports reproductive, maternal, and child health services.",
+    "applicationLink": "https://nhm.gov.in/"
+  },
+  {
+    "schemeName": "PM SVANidhi Scheme",
+    "description": "A special micro-credit facility for street vendors.",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Street Vendor"],
+        "area": "Urban",
+        "age_min": 18
+    },
+    "benefits": "Provides a collateral-free working capital loan of up to ₹10,000, with subsequent loans of higher value.",
+    "applicationLink": "https://pmsvanidhi.mohua.gov.in/"
+  },
+  {
+    "schemeName": "Samagra Shiksha Abhiyan",
+    "description": "An overarching programme for the school education sector from pre-school to class 12.",
+    "ministry": "Ministry of Education",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Student"],
+        "age_min": 3,
+        "age_max": 18,
+        "notes": "Covers all children from pre-primary to senior secondary levels in government and aided schools."
+    },
+    "benefits": "Provides support for school infrastructure, teacher training, free textbooks, and uniforms.",
+    "applicationLink": "https://samagra.education.gov.in/"
+  },
+  {
+    "schemeName": "National Food Security Act (NFSA)",
+    "description": "Provides for food and nutritional security by ensuring access to adequate quantity of quality food at affordable prices.",
+    "ministry": "Ministry of Consumer Affairs, Food & Public Distribution",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "category": ["Poor", "BPL"],
+        "income_max": 250000,
+        "notes": "Covers up to 75% of the rural population and 50% of the urban population for receiving subsidized foodgrains."
+    },
+    "benefits": "Eligible households receive highly subsidized foodgrains (rice, wheat, coarse grains).",
+    "applicationLink": "https://nfsa.gov.in/"
+  },
+  {
+    "schemeName": "Mission Karmayogi",
+    "description": "A National Programme for Civil Services Capacity Building.",
+    "ministry": "Department of Personnel and Training",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Government Employee"]
+    },
+    "benefits": "Provides a platform (iGOT Karmayogi) for continuous online training for all government officials.",
+    "applicationLink": "https://igotkarmayogi.gov.in/"
+  },
+  {
+    "schemeName": "National Creche Scheme",
+    "description": "Provides day-care facilities to the children of working mothers.",
+    "ministry": "Ministry of Women and Child Development",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "age_max": 6,
+        "gender": "Female",
+        "occupation": ["Working Mother"],
+        "notes": "Primarily for children of working mothers. A nominal user fee is charged."
+    },
+    "benefits": "Provides day-care, supplementary nutrition, and pre-school education.",
+    "applicationLink": "https://wcd.nic.in/schemes/national-creche-scheme"
+  },
+  {
+    "schemeName": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "description": "The flagship scheme to enable Indian youth to take up industry-relevant skill training.",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Unemployed Youth", "Student"],
+        "age_min": 15,
+        "age_max": 45,
+        "notes": "Targeted towards unemployed youth, school/college drop-outs."
+    },
+    "benefits": "Provides free short-duration skill training and certification, along with placement assistance.",
+    "applicationLink": "https://www.pmkvy.gov.in/"
+  },
+  {
+    "schemeName": "Startup India Seed Fund Scheme",
+    "description": "Provides financial assistance to startups for proof of concept, prototype development, product trials, and market entry.",
+    "ministry": "Department for Promotion of Industry and Internal Trade",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Entrepreneur", "Startup"],
+        "age_min": 18,
+        "notes": "A startup recognized by DPIIT, incorporated not more than 2 years ago at the time of application."
+    },
+    "benefits": "Provides up to ₹20 Lakhs as a grant and up to ₹50 Lakhs of investment for market entry and scaling up.",
+    "applicationLink": "https://seedfund.startupindia.gov.in/"
+  },
+  {
+    "schemeName": "Scheme for Promotion of Academic and Research Collaboration (SPARC)",
+    "description": "Aims at improving the research ecosystem of India’s higher educational institutions.",
+    "ministry": "Ministry of Education",
+    "type": "National",
+    "state": "All",
+    "eligibility": {
+        "occupation": ["Student", "Researcher", "Faculty"],
+        "notes": "Proposals are submitted by Indian institutions for collaboration with foreign universities."
+    },
+    "benefits": "Funds joint research projects, workshops, and courses.",
+    "applicationLink": "https://sparc.iitkgp.ac.in/"
+  }
+]
